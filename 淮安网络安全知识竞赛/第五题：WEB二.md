@@ -8,7 +8,7 @@
 
 判断是需要做IP伪装。
 
-使用BurpSuite抓包，修改http头，加入
+使用BurpSuite抓包，修改HTTP头，加入
 ```html
 X-forwarded-For: 127.0.0.1
 ```
